@@ -21,5 +21,10 @@ students.each do |student|
 end
 end
 
+def print_footer(students)
+  "Overall we have #{students.count} great students"
+end
+
 print_header
 print(students)
+print_footer(students)
