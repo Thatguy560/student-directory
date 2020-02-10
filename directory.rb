@@ -22,7 +22,7 @@ end
 end
 
 def print_footer(students)
-  "Overall we have #{students.count} great students"
+ puts "Overall we have #{students.count} great students"
 end
 
 print_header
